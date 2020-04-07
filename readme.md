@@ -1,0 +1,1 @@
+This is a simple stop watch program using html and javascript
