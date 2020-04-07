@@ -42,7 +42,7 @@ function startCountDown(){
 
     var timeElement = document.getElementById("timer");
     timeElement.innerHTML= minutes + ":00";
-    intervalHnadler = setInterval(starttimer,10);
+    intervalHnadler = setInterval(starttimer,1000);
 }
 
 window.onload = function(){
