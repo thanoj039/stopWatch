@@ -54,6 +54,7 @@ function startTimer(){
     if(seconds==0){
         clearInterval(intervalHnadler);
         //alert("Done");
+        timeMessage.innerHTML = "00:00";
         var elementDiv = document.getElementById("div");
         elementDiv.style.display="block";
         var elementDiv3 = document.getElementById("div3");
